@@ -2,6 +2,20 @@
 
 This repository is for the projects of the professional machine learning course with Scikit-Learn.
 
+## Projects
+
+### 001_pca
+This project implements Principal Component Analysis (PCA) and Incremental PCA (IPCA) for dimensionality reduction on the heart disease dataset. It compares the performance of a logistic regression model trained on the PCA-transformed data versus the IPCA-transformed data.
+
+### 002_kpca
+This project applies Kernel PCA (KPCA) with a polynomial kernel to the heart disease dataset. It visualizes the transformed data and evaluates the performance of a logistic regression model.
+
+### 003_regularization
+This project explores different regularization techniques for linear regression, including Lasso, Ridge, and ElasticNet. It uses the world happiness dataset to predict happiness scores and compares the mean squared error and model coefficients for each regularization method.
+
+### 004_robust
+This project demonstrates how to use robust regression models (RANSAC, Huber Regressor, and SVR) to handle outliers in a corrupted version of the world happiness dataset. It compares the mean squared error of each model.
+
 ## Project Structure
 
 - `data/`: Contains the datasets for the projects.
